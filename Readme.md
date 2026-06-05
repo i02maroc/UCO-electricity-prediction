@@ -6,12 +6,6 @@ Trabajo Fin de Grado — Grado en Ingeniería Informática
 Escuela Politécnica Superior de Córdoba — Universidad de Córdoba  
 Autor: Carlos Marín Rodríguez | Director: José Luis Ávila Jiménez
 
----
-
-
-Aquí tienes la sección reescrita con descripción en prosa de cada carpeta:
-
----
 
 ## Estructura del repositorio
 
