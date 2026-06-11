@@ -1,0 +1,39 @@
+(electricity-prediction) C:\Users\cmrod\Desktop\TFG\electricity-cost-prediction\src\others>python final_compare_graphic.py
+Cargando datos...
+Preparando features V4...
+2026-05-19 12:11:20.553875: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-19 12:11:21.767423: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 2126 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1650, pci bus id: 0000:01:00.0, compute capability: 7.5
+2026-05-19 12:11:24.522429: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8100
+✓ GRU V4 — 1551 obs (2023-10-28 08:00:00 → 2023-12-31 22:00:00)
+Preparando features V5...
+✓ GRU V5 — 1584 obs (2023-10-27 00:00:00 → 2023-12-31 23:00:00)
+Cargando predicciones SARIMA desde CSV...
+✓ SARIMA alineado — 1551 obs
+
+==============================================================================
+  MÉTRICAS — 1 Semana (168h)
+==============================================================================
+Métrica         Naive     SARIMA     GRU V5     GRU V4
+==============================================================================
+MAE             157.7      310.9       40.1       34.8
+RMSE                —      434.2       59.3       44.8
+MAPE           14.83%     31.99%      3.56%      3.21%
+==============================================================================
+
+==============================================================================
+  MÉTRICAS — Test completo
+==============================================================================
+Métrica         Naive     SARIMA     GRU V5     GRU V4
+==============================================================================
+MAE             156.3      288.6       34.7       36.6
+RMSE                —      381.5       50.3       52.7
+MAPE           13.00%     26.34%      2.87%      3.01%
+==============================================================================
+✓ Gráfica guardada: ../../models/results_final_comparativa/macro_comparativa_1_Semana.png
+✓ Gráfica guardada: ../../models/results_final_comparativa/macro_comparativa_2_Semanas.png
+✓ Gráfica guardada: ../../models/results_final_comparativa/macro_comparativa_Completo.png
+
+✅ Proceso finalizado. Gráficas guardadas en: ../../models/results_final_comparativa/
+
+(electricity-prediction) C:\Users\cmrod\Desktop\TFG\electricity-cost-prediction\src\others>

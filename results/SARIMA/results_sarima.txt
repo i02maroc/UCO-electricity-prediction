@@ -1,0 +1,16 @@
+RESUMEN COMPARATIVO SARIMA 
+========================================
+Entrenado sobre: train+val (7008 obs)
+Evaluado sobre:  test (1752 obs)
+
+TEST COMPLETO:
+  SARIMA MAPE: 26.40%
+  SARIMA MAE:  288.02
+  SARIMA RMSE: 383.89
+  NAIVE  MAPE: 14.49%
+
+PRIMERA SEMANA (168h):
+  SARIMA MAPE: 28.16%
+  SARIMA MAE:  296.38
+  SARIMA RMSE: 421.91
+  NAIVE  MAPE: 28.24%

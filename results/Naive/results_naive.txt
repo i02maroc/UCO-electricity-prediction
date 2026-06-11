@@ -1,0 +1,13 @@
+RESULTADOS BASELINE NAIVE (t-168)
+========================================
+Evaluado sobre: test (1752 obs)
+
+TEST COMPLETO:
+  MAE:  172.10 Wh
+  RMSE: 322.79 Wh
+  MAPE: 14.49%
+
+PRIMERA SEMANA (168h):
+  MAE:  318.25 Wh
+  RMSE: 452.65 Wh
+  MAPE: 28.24%
