@@ -1,4 +1,3 @@
-(electricity-prediction) C:\Users\cmrod\Desktop\TFG\electricity-cost-prediction\src\others>python final_compare_graphic.py
 Cargando datos...
 Preparando features V4...
 2026-05-19 12:11:20.553875: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
@@ -34,6 +33,3 @@ MAPE           13.00%     26.34%      2.87%      3.01%
 ✓ Gráfica guardada: ../../models/results_final_comparativa/macro_comparativa_2_Semanas.png
 ✓ Gráfica guardada: ../../models/results_final_comparativa/macro_comparativa_Completo.png
 
-✅ Proceso finalizado. Gráficas guardadas en: ../../models/results_final_comparativa/
-
-(electricity-prediction) C:\Users\cmrod\Desktop\TFG\electricity-cost-prediction\src\others>
